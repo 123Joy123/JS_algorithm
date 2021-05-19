@@ -14,3 +14,10 @@ m.set('a','aaa')
 
 //查
 console.log(m.get('a'))
+//查看是否有这个key
+console.log(m.has('a'))
+
+//遍历字典的方法
+m.forEach((value,key)=>{
+    console.log(value,key);
+    });
